@@ -1,8 +1,28 @@
 aid: oncimmune
-name: oncimmune
-description: oncimmune is a company surfaced as a portfolio company of balderton-capital and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/oncimmune.png
+name: Oncimmune
+description: >-
+  Oncimmune is a biotechnology company specializing in antibody and autoantibody
+  biomarker discovery for precision medicine. Its proprietary ImmunoINSIGHTS platform
+  screens against 9,000+ human antigens using Luminex xMAP bead-based multiplexed
+  immunoassay technology, minimal sample volumes, high-throughput automated robotic
+  workflows, and proprietary machine-learning algorithms to identify immune-system
+  signatures across immuno-oncology, autoimmune disease, and infectious disease.
+  Products include the ImmunoINSIGHTS 2K targeted panels, custom biomarker discovery
+  services, and bioinformatics/data-science multiomics integration. Oncimmune was
+  acquired by Alden Scientific in July 2025. The company operates as a research and
+  discovery services provider and does not publish a public developer or API platform.
 url: https://raw.githubusercontent.com/api-evangelist/oncimmune/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Biotechnology
+- Precision Medicine
+- Biomarker Discovery
+- Immuno-Oncology
+- Autoantibody
+- Diagnostics
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,15 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://oncimmune.com/
+  url: https://www.oncimmune.com/
+- type: Support
+  url: https://www.oncimmune.com/contact/
+- type: PrivacyPolicy
+  url: https://www.oncimmune.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.oncimmune.com/terms-of-use/
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
